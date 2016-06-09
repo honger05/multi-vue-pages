@@ -1,0 +1,34 @@
+/* Reset */
+body, html{font-size: 100%;padding: 0; margin: 0;}
+*,
+*:after,
+*:before{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after{content: " ";display: table;}
+.clearfix:after{clear: both;}
+body{background: #f9f7f6;color: #404d5b;font-weight: 500;font-size: 1.05em;font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif;}
+a{color: #fff;text-decoration: none;outline: none;}
+a:hover,a:focus{color:#74777b;}
+html,body,h1,h2,h3,h4,h5,h6,hr,p,iframe,dl,dt,dd,ul,ol,li,pre,form,fieldset,button,input,textarea,th,td{margin:0;padding:0;}
+body{background-color:#FFF;}
+body,button,input,select,textarea,fieldset,label{font:14px/1.5 tahoma,arial,"Hiragino Sans GB",\5FAE\8F6F\96C5\9ED1;color:#5f5f5f;}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+ul,ol{list-style:none;}
+fieldset,img{border:0 none;}
+img{-ms-interpolation-mode:bicubic;}
+i,em{font-style:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+th {text-align:inherit;}
+iframe {display:block;}
+.left{ float:left;}
+.right{ float:right;}
+input,select,textarea,button{font-size:100%;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+button,input[type=button],input[type=submit]{cursor:pointer;}
+input[type=search]{-webkit-appearance:textfield;}
+textarea{overflow-y:auto;resize:vertical;}
+.clear,.clearfix{zoom:1;}
+.clear:after,.clearfix:after,.cf:before, .cf:after, .md-clear:after{content:' ';display:block;clear:both;height:0;visibility:hidden;}
+.hidden,.hide{display:none;}
+hr {-moz-box-sizing: content-box;box-sizing: content-box;height: 0;}
+a:link{ text-decoration:none;}

@@ -1,8 +1,5 @@
-import Vue from 'vue';
-import App from './App';
+require('./index.scss')
 
-/* eslint-disable no-new */
-new Vue({
-  el: 'body',
-  components: { App },
-});
+$.fn.fsvs({
+  speed: 1000
+})

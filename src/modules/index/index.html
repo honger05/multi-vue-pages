@@ -3,11 +3,20 @@
   <head>
     <title>vue-template</title>
     <%= require('html!tmpl/inc-meta.html') %>
+    <link rel="stylesheet" href="./static/css/reset.css">
   </head>
   <body>
-    <app></app>
 
+    <div id="abc" class="fsvs">
+      <div id="fsvs-body">
+        <div class="slide slide-1">1</div>
+        <div class="slide slide-2">2</div>
+        <div class="slide slide-3">3</div>
+      </div>
+    </div>
+
+    <script src="./static/js/jquery.js"></script>
+    <script src="./static/js/fsvs.js"></script>
     <%= require('html!tmpl/inc-footer.html') %>
-    <!-- built files will be auto injected -->
   </body>
 </html>
